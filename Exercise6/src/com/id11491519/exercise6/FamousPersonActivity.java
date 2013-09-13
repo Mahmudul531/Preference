@@ -28,6 +28,7 @@ public class FamousPersonActivity extends Activity {
 
 		/* Initialize the variable */
 		init();
+		
 
 	}
 
@@ -46,6 +47,7 @@ public class FamousPersonActivity extends Activity {
 		if (firstName.getText().length() != 0
 				&& lastName.getText().length() != 0) {
 			String DayString = null, MonthString = null, Date = "";
+			/*Reduce value because of month in increased on first*/
 			int day = datepikerBirthday.getDayOfMonth();
 			int month = datepikerBirthday.getMonth() + 1;
 			int year = datepikerBirthday.getYear();

@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    <RelativeLayout
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/relLanguage"
+    
+     >
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="fill_parent"
+        android:layout_marginTop="5sp"
+        android:layout_height="25sp"
+        android:background="@android:drawable/bottom_bar" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="20sp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignTop="@+id/imageView1"
+        android:layout_marginLeft="5sp"
+        android:text="Medium Text"
+        android:textColor="#ffffff"
+       
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    </RelativeLayout>
+    
+     <RelativeLayout
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="10sp"
+    android:onClick="Language"
+    
+     >
+
+
+    
+
+    <TextView
+        android:id="@+id/textViewLanguage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="5sp"
+        
+        android:text="Language"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/textViewSelectLanguage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textViewLanguage"
+        android:text="Medium Tex"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    </RelativeLayout>
+     <RelativeLayout
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="10sp"
+     android:onClick="Lock"
+    
+     >
+
+    <TextView
+        android:id="@+id/textViewLanguage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="5sp"
+        android:text="Lock Screen rotation"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/textViewSelectLock"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textViewLanguage"
+        android:text="Unlocked"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <CheckBox
+        android:id="@+id/checkBox1"
+        android:layout_width="50sp"
+        android:layout_height="60sp"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/textViewLanguage"
+        />
+
+    </RelativeLayout>
+     <RelativeLayout
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content" 
+    >
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="fill_parent"
+        android:layout_marginTop="5sp"
+        android:layout_height="25sp"
+        android:background="@android:drawable/bottom_bar" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="20sp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignTop="@+id/imageView1"
+        android:layout_marginLeft="5sp"
+        android:text="Medium Text"
+        android:textColor="#ffffff"
+       
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    </RelativeLayout>
+      <RelativeLayout
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="10sp"
+     android:id="@+id/relhomePage"
+     android:onClick="Home"
+     >
+
+
+    
+
+    <TextView
+        android:id="@+id/textViewLanguage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="5sp"
+        
+        android:text="Home Page"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/textViewSelectLanguage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textViewLanguage"
+        android:text="Set the Home page URL"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    </RelativeLayout>
+      <RelativeLayout
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="10sp"
+     android:id="@+id/relRingtone"
+     android:onClick="Ring"
+     >
+
+
+    
+
+    <TextView
+        android:id="@+id/textViewLanguage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="5sp"
+        
+        android:text="Ringtones"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/textViewSelectLanguage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textViewLanguage"
+        android:text="Select a ringtone"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    </RelativeLayout>
+    
+    
+    
+
+</LinearLayout>

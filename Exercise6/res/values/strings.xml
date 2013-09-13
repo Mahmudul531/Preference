@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Exercise6</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="column1_1">Language</string>
+    <string name="column1_2">not set!</string>
+    <string name="column2_1">Screen rotation</string>
+    <string name="column2_2">unlocked</string>
+    <string name="column3_1">Home Page</string>
+    <string name="column4_1">Ringtone</string>
+    <string name="title_activity_my_preference">MyPreferenceActivity</string>
+    <string name="firstCategory">First Category</string>
+    <string name="secondCategory">Second Category</string>
+    <string name="preference_language_summary">Choose youre language</string>
+    <string name="pereference_language">Language</string>
+    <string name="slected_or_unselected_language">Unlocked</string>
+    <string name="preference_checkBox">Lock Screen rotation</string>	
+    <string name="myPreference">Preference</string>
+    
+    <string-array name="gender">
+	<item>Male</item>
+	<item>Female</item>
+	</string-array>
+    
+</resources>

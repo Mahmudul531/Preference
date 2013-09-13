@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+    
+    <PreferenceCategory
+        android:key="firstCategory"
+        android:title="@string/firstCategory">
+        
+        <ListPreference
+           android:defaultValue="Select a language"
+            android:entries="@array/languages"
+            android:entryValues="@array/language_index"
+            android:key="preference_language"
+           android:summary="Select a language"
+            android:title="@string/pereference_language"/>
+        <CheckBoxPreference  
+            android:defaultValue="false"         
+            android:id="@+id/my_CheckBoxPref"
+            android:key="preference_voice_activated"
+            android:summary="Select a language"
+            android:title="@string/preference_checkBox"/>
+        
+        
+        
+        </PreferenceCategory>
+        <PreferenceCategory 
+        android:key="secondCategory"
+        android:title="@string/secondCategory"/>
+        <EditTextPreference 
+                android:defaultValue="" 
+            	android:title="Home Page" 
+            	android:summary="%s"
+            	android:key="prefUsername"/>
+        <RingtonePreference
+          
+    android:title="Ringtones"
+    android:key="ringtone"
+    android:summary="Select a Ringtone"
+    ></RingtonePreference>
+	
+    
+    
+    
+</PreferenceScreen>

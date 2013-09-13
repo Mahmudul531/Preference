@@ -1,0 +1,74 @@
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".MainActivity" >
+
+        <TableRow 
+            android:id="@+id/firstRow"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dip">
+            <TextView 
+                android:id="@+id/language"
+                android:text="@string/column1_1"/>
+            <TextView 
+                android:id="@+id/languageHome"
+                android:text="@string/column1_2"
+                android:layout_marginLeft="80dip"/>                
+                        </TableRow>
+        <TableRow 
+            android:id="@+id/secondRow"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dip">
+            <TextView 
+                android:id="@+id/screenRotation"
+                android:text="@string/column2_1"/>
+            <TextView 
+                android:id="@+id/unlockRotationHome"
+                android:text="@string/column2_2"
+                android:layout_marginLeft="80dip"/>                
+                        </TableRow>
+                        
+        <TableRow 
+            android:id="@+id/thridRow"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dip">
+            <TextView 
+                android:id="@+id/HomePage"
+                android:text="@string/column3_1"/>
+            <TextView 
+                android:id="@+id/HomePageHome"
+                android:text="@string/column1_2"
+                android:layout_marginLeft="80dip"/>                
+                        </TableRow>
+                        
+        <TableRow 
+            android:id="@+id/fourthRow"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dip">
+            <TextView 
+                android:id="@+id/ringtone"
+                android:text="@string/column4_1"/>
+            <TextView 
+                android:id="@+id/RingtoneHome"
+                android:text="@string/column1_2"
+                android:layout_marginLeft="80dip"/>                
+                        </TableRow>
+
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="AddFamous"
+            android:text="Add Famous" />
+
+    </TableLayout>
+
